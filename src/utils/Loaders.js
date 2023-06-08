@@ -1,8 +1,9 @@
 const url = "https://imdb-top-100-movies.p.rapidapi.com/";
+const APIKEY = import.meta.env.VITE_API_KEY
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "19e1a9b59emshbacd5090df1ed86p13460ajsn166548e8400c",
+    "X-RapidAPI-Key": APIKEY,
     "X-RapidAPI-Host": "imdb-top-100-movies.p.rapidapi.com",
   },
 };
